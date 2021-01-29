@@ -8,6 +8,7 @@
       `*[_type == 'post' && tag[]->tag match 'work']
       {
         title,
+        alt,
         mainImage {
           asset -> {
             url,

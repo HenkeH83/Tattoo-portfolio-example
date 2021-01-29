@@ -9,6 +9,7 @@
       `*[_type == 'post' && tag[]->tag match 'about']
     {
       title,
+      alt,
       mainImage {
         asset -> {
           url,
