@@ -4,7 +4,8 @@ import blocksToHtml from "@sanity/block-content-to-html";
 
 export const client = sanityClient({
     projectId: "31pqoz1b",
-    dataset: "production"
+    dataset: "production",
+    useCdn: true
 })
 
 const builder = imageUrlBuilder(client)

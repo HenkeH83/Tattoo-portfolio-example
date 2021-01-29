@@ -59,7 +59,7 @@
             .quality(80)
             .auto("format")
             .url()}
-          alt={content.alt}
+          alt={content[0].alt}
           width="600"
           height="971"
         />
